@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "slug": "downstepguess",
+  "family": "sfx",
+  "label": "downstepguess",
+  "note": "source=assets/snd/whistle.mp3 — D4–A#3–F#3 on horn F/X; pack-missing fallback for the recording — lane was `horn`, a channel this song does not have, so the overlay never fired; the channel is `mellow`.",
+  "sampleReplace": {
+    "channel": "mellow",
+    "packKey": "bkk-whistle",
+    "rootMidi": 80
+  },
+  "song": {
+    "rowLen": 5168,
+    "endPattern": 2,
+    "songLen": 0.9375056689342404,
+    "songData": [
+      {
+        "osc1_waveform": 0,
+        "osc1_vol": 91,
+        "osc1_oct": 8,
+        "osc1_det": 0,
+        "osc1_detune": 0,
+        "osc1_xenv": 0,
+        "osc2_waveform": 0,
+        "osc2_vol": 95,
+        "osc2_oct": 8,
+        "osc2_det": 0,
+        "osc2_detune": 12,
+        "osc2_xenv": 0,
+        "noise_fader": 0,
+        "env_attack": 576,
+        "env_sustain": 0,
+        "env_release": 20736,
+        "env_master": 180,
+        "fx_filter": 2,
+        "fx_freq": 11025,
+        "fx_resonance": 255,
+        "fx_delay_time": 4,
+        "fx_delay_amt": 130,
+        "fx_pan_freq": 2,
+        "fx_pan_amt": 83,
+        "lfo_osc1_freq": 0,
+        "lfo_fx_freq": 0,
+        "lfo_freq": 0,
+        "lfo_amt": 0,
+        "lfo_waveform": 0,
+        "name": "mellow",
+        "p": [1],
+        "c": [
+          {
+            "n": [
+              137,
+              0,
+              133,
+              0,
+              129,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

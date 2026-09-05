@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "slug": "horn",
+  "family": "sfx",
+  "label": "horn",
+  "note": "source=assets/snd/horn.mp3 — F4 house F/X horn; pack-missing fallback for the recording",
+  "sampleReplace": {
+    "channel": "horn",
+    "packKey": "bkk-horn",
+    "rootMidi": 65
+  },
+  "song": {
+    "rowLen": 5168,
+    "endPattern": 2,
+    "songLen": 1.8750113378684807,
+    "songData": [
+      {
+        "osc1_waveform": 1,
+        "osc1_vol": 200,
+        "osc1_oct": 8,
+        "osc1_det": 0,
+        "osc1_detune": 0,
+        "osc1_xenv": 0,
+        "osc2_waveform": 2,
+        "osc2_vol": 160,
+        "osc2_oct": 8,
+        "osc2_det": 0,
+        "osc2_detune": 8,
+        "osc2_xenv": 0,
+        "noise_fader": 0,
+        "env_attack": 100,
+        "env_sustain": 576,
+        "env_release": 32400,
+        "env_master": 180,
+        "fx_filter": 2,
+        "fx_freq": 1686,
+        "fx_resonance": 175,
+        "fx_delay_time": 3,
+        "fx_delay_amt": 50,
+        "fx_pan_freq": 0,
+        "fx_pan_amt": 30,
+        "lfo_osc1_freq": 0,
+        "lfo_fx_freq": 0,
+        "lfo_freq": 0,
+        "lfo_amt": 0,
+        "lfo_waveform": 0,
+        "name": "horn",
+        "p": [1],
+        "c": [
+          {
+            "n": [
+              140,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

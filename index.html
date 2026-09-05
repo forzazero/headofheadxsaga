@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en" class="saga">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, maximum-scale=1">
+<meta name="theme-color" content="#0d1417">
+<title>Bombercup Saga</title>
+<link rel="icon" type="image/png" href="/assets/favicon.png" sizes="64x64">
+<meta name="description" content="A superintelligence got so good at predicting football that the world stopped playing it. You are the only entrant it has no prediction for. Twenty-two levels, seven seeds, one unsolved match.">
+<!-- NO TELEGRAM SDK, NO SOCIAL CARD REWRITE, NO __ORIGIN__ TOKEN. This document
+     is served from a static directory with no server behind it
+     (docs/STORY_LINE.md §11.1), so there is nothing at boot to rewrite it.
+
+     PATHS ARE ORIGIN-ABSOLUTE and the build is served from the ROOT of one.
+     That is a real constraint and it is worth stating rather than discovering:
+     `assets.ts` fetches `/assets/<file>` and `content/store.ts` fetches
+     `/content/…`, both hard-coded, and a document that named its own assets
+     relatively while the bundle named them absolutely would work until the
+     first texture. One rule, applied to both, and `dist/` drops at a web root. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Orbitron:wght@700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/styles.css">
+<link rel="stylesheet" href="/assets/saga.css">
+</head>
+<body class="saga">
+  <!-- Pre-React boot splash, painted entirely from CSS — no image and no font it
+       cannot live without, because it is on screen exactly while the art it
+       covers is still downloading. -->
+  <div id="boot-loading" style="--boot-progress: 0" aria-busy="true" aria-live="polite">
+    <div class="boot-bg" aria-hidden="true"></div>
+    <div class="boot-ui">
+      <div class="boot-mark">BOMBERCUP</div>
+      <div class="boot-sub">SAGA</div>
+      <div class="boot-bar" role="progressbar" aria-label="Loading"
+           aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="boot-fill"></div>
+        <div class="boot-cells" aria-hidden="true"></div>
+        <div class="boot-spark" aria-hidden="true"></div>
+      </div>
+      <div class="boot-meta">
+        <span>Loading</span>
+        <span id="boot-pct">0%</span>
+      </div>
+    </div>
+    <div class="boot-ribbon" aria-hidden="true">
+      <div class="boot-rtrack">
+        <span>THE TABLE IS PUBLISHED ON THE FIRST DAY OF THE SEASON · IT HAS NEVER ONCE BEEN WRONG · NOBODY HAS WATCHED A MATCH IN NINE YEARS · </span>
+        <span>THE TABLE IS PUBLISHED ON THE FIRST DAY OF THE SEASON · IT HAS NEVER ONCE BEEN WRONG · NOBODY HAS WATCHED A MATCH IN NINE YEARS · </span>
+      </div>
+    </div>
+  </div>
+  <div id="root"></div>
+  <script type="module" src="/saga.js"></script>
+</body>
+</html>

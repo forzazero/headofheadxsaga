@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "slug": "winner",
+  "family": "sfx",
+  "label": "winner",
+  "note": "source=assets/snd/done.mp3 — 128 BPM A3–E4–A4 on Done F/X; pack-missing fallback for the FINISH banner",
+  "sampleReplace": {
+    "channel": "done",
+    "packKey": "bkk-done",
+    "rootMidi": 60
+  },
+  "song": {
+    "rowLen": 5168,
+    "endPattern": 2,
+    "songLen": 1.8750113378684807,
+    "songData": [
+      {
+        "osc1_waveform": 1,
+        "osc1_vol": 192,
+        "osc1_oct": 8,
+        "osc1_det": 0,
+        "osc1_detune": 0,
+        "osc1_xenv": 0,
+        "osc2_waveform": 1,
+        "osc2_vol": 191,
+        "osc2_oct": 7,
+        "osc2_det": 0,
+        "osc2_detune": 9,
+        "osc2_xenv": 0,
+        "noise_fader": 0,
+        "env_attack": 144,
+        "env_sustain": 1936,
+        "env_release": 11400,
+        "env_master": 136,
+        "fx_filter": 1,
+        "fx_freq": 994,
+        "fx_resonance": 88,
+        "fx_delay_time": 6,
+        "fx_delay_amt": 42,
+        "fx_pan_freq": 5,
+        "fx_pan_amt": 77,
+        "lfo_osc1_freq": 0,
+        "lfo_fx_freq": 1,
+        "lfo_freq": 2,
+        "lfo_amt": 69,
+        "lfo_waveform": 0,
+        "name": "done",
+        "p": [1],
+        "c": [
+          {
+            "n": [
+              132,
+              0,
+              139,
+              0,
+              144,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

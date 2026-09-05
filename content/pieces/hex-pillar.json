@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "slug": "hex-pillar",
+  "label": "hex pillar",
+  "theme": "goldmine",
+  "kind": "tile",
+  "tris": 16,
+  "size": [0.96, 0.9, 0.8314],
+  "cells": [1, 1],
+  "yaw": 0,
+  "source": {
+    "file": "hex-pillar.obj",
+    "command": "bun packages/tools/src/model-forge.ts model assets/goldmine/hex-pillar.obj --name hex-pillar --label hex pillar --target solid --theme goldmine --source-maps --albedo packages/client/assets/geitamine-albedo.png --normal assets/crystal-mines/flat-normal.png --map 64 --budget 32 --bump-scale 0 --material phong"
+  },
+  "geometry": {
+    "vertices": 48,
+    "corners": 48,
+    "posScale": 0.0000274666585284,
+    "attributes": {
+      "POS": {
+        "type": "i16",
+        "b64": "IiIAAB47REQAAAAARET/fwAAIiIAAB47RET/fwAAIiL/fx473t0AAB47IiIAAB47IiL/fx473t0AAB47IiL/fx473t3/fx47vLsAAAAA3t0AAB473t3/fx47vLsAAAAA3t3/fx47vLv/fwAA3t0AAOLEvLsAAAAAvLv/fwAA3t0AAOLEvLv/fwAA3t3/f+LEIiIAAOLE3t0AAOLE3t3/f+LEIiIAAOLE3t3/f+LEIiL/f+LEREQAAAAAIiIAAOLEIiL/f+LEREQAAAAAIiL/f+LERET/fwAARET/fwAA3t3/fx47IiL/fx47RET/fwAAvLv/fwAA3t3/fx47RET/fwAA3t3/f+LEvLv/fwAARET/fwAAIiL/f+LE3t3/f+LE"
+      },
+      "NRM": {
+        "type": "i8",
+        "b64": "bgBAbgBAbgBAbgBAbgBAbgBAAAB/AAB/AAB/AAB/AAB/AAB/kgBAkgBAkgBAkgBAkgBAkgBAkgDBkgDBkgDBkgDBkgDBkgDBAACBAACBAACBAACBAACBAACBbgDBbgDBbgDBbgDBbgDBbgDBAH8AAH8AAH8AAH8AAH8AAH8AAH8AAH8AAH8AAH8AAH8AAH8A"
+      },
+      "UV": {
+        "type": "u16",
+        "b64": "HwXg+uF64Prheh8FHwXg+uF6HwUfBR8FHwXg+uF64Prheh8FHwXg+uF6HwUfBR8FHwXg+uF64Prheh8FHwXg+uF6HwUfBR8FHwXg+uF64Prheh8FHwXg+uF6HwUfBR8FHwXg+uF64Prheh8FHwXg+uF6HwUfBR8FHwXg+uF64Prheh8FHwXg+uF6HwUfBR8F4PoAgI+i/bJw3f2y4PoAgB6FAICPov2y4PoAgI+iAk0ehQCA4PoAgHDdAk2PogJN"
+      },
+      "COL": {
+        "type": "u8",
+        "b64": "oJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUg4aNT1NddXh/g4aNbXF5T1Ndg4aNbXF4bXF5g4aNfYCHbXF4"
+      },
+      "IDX": {
+        "type": "u16",
+        "b64": "AAABAAIAAwAEAAUABgAHAAgACQAKAAsADAANAA4ADwAQABEAEgATABQAFQAWABcAGAAZABoAGwAcAB0AHgAfACAAIQAiACMAJAAlACYAJwAoACkAKgArACwALQAuAC8A"
+      }
+    }
+  },
+  "material": {
+    "lit": "phong",
+    "flipY": false,
+    "wrap": "clamp",
+    "normalScale": 1.1,
+    "bumpScale": 0,
+    "shininess": 20,
+    "specular": "#6f6a5c"
+  },
+  "maps": ["albedo", "normal"]
+}

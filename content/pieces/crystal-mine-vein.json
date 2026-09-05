@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "slug": "crystal-mine-vein",
+  "label": "crystal mine vein",
+  "theme": "goldmine",
+  "kind": "tile",
+  "tris": 63,
+  "size": [0.7426, 0.7041, 0.7726],
+  "cells": [1, 1],
+  "yaw": 0,
+  "source": {
+    "file": "crystal-mine-vein.obj",
+    "command": "bun packages/tools/src/model-forge.ts model assets/crystal-mines/crystal-mine-vein.obj --name crystal-mine-vein --label crystal mine vein --target brick --budget 64 --theme goldmine --albedo assets/crystal-mines/vein-albedo.png --map 512 --bump-scale 0 --normal-scale 0.4 --material phong --shininess 60 --specular #9db8ff --emissive assets/crystal-mines/crystal-mine-vein-emissive.png"
+  },
+  "geometry": {
+    "vertices": 189,
+    "corners": 189,
+    "posScale": 0.00002148856360993221,
+    "attributes": {
+      "POS": {
+        "type": "i16",
+        "b64": "f0MAAL7mEhHhAMe5VAS/NQTjEhHhAMe5UNA5C6zTVAS/NQTjnyc+APsqf0MAAL7maxS7Mq71f0MAAL7mVAS/NQTjaxS7Mq71gbxrAnYSUeKmBTlGDPGYP/kZUeKmBTlGnyc+APsqDPGYP/kZnyc+APsqaxS7Mq71kgM5LroEVAS/NQTjUNA5C6zT+d2FPg77UNA5C6zTgbxrAnYS+d2FPg77gbxrAnYSDPGYP/kZ+d2FPg77DPGYP/kZnyc+APsq3Q4qPTgSaxS7Mq71VAS/NQTjkgM5LroEVAS/NQTj+d2FPg77kgM5LroEUNA5C6zTEhHhAMe5nyc+APsqgbxrAnYSUNA5C6zTnyc+APsq+d2FPg77DPGYP/kZkgM5LroEDPGYP/kZ3Q4qPTgSkgM5LroES88nLrca9MuyDbAqdckNNOUd/M1XMK8k9MuyDbAqedjIEfUog9MjEE4dedjIEfUo9MuyDbAqS88nLrcag9MjEE4d9MuyDbAq/M1XMK8kS88nLrcadckNNOUdS88nLrcaedjIEfUog9MjEE4dS88nLrca/M1XMK8kedjIEfUo/M1XMK8kdckNNOUd9MuyDbAq/8YcSuoZy+J1HPIUdddCQC4gF8n/fy8JtMxneKX6/8YcSuoZF8n/fy8J4OKZb2sLtMxneKX6dddCQC4gy+ltLjkZ4OKZb2sLy+J1HPIUxtH8RAAAIeXHNWQCF8n/fy8J/8YcSuoZdddCQC4gxtH8RAAAy+J1HPIU/8YcSuoZy+ltLjkZIeXHNWQC4OKZb2sLy+ltLjkZy+J1HPIUIeXHNWQCIeXHNWQCxtH8RAAAtMxneKX6y+J1HPIUy+ltLjkZdddCQC4gdddCQC4g4OKZb2sLF8n/fy8JtMxneKX64OKZb2sLIeXHNWQC/8YcSuoZtMxneKX6xtH8RAAAaQ2fWg/ZsQLfZrrO7gPsW2jjchHYLKjmmxodNNbk7gPsW2jjtRdwOJHWwBLhI/7ddwitOnTO7gPsW2jjsQLfZrrOPgDYRV3ZdwitOnTOPgDYRV3ZsQLfZrrOsQLfZrrOtRdwOJHWdwitOnTOchHYLKjm7gPsW2jjPgDYRV3ZmxodNNbkchHYLKjmwBLhI/7dsQLfZrrOaQ2fWg/ZtRdwOJHWPgDYRV3ZwBLhI/7dchHYLKjmaQ2fWg/Z7gPsW2jjmxodNNbktRdwOJHWaQ2fWg/ZmxodNNbkmxodNNbkwBLhI/7dtRdwOJHWwBLhI/7dPgDYRV3ZdwitOnTOdx68Dy3S/yQ0EInV3B3TF2PbMR1oMi7JZxseI+vIFxn3LInNFxn3LInNZxseI+vI3B3TF2Pb3B3TF2PbMR1oMi7JFxn3LInNMR1oMi7JCR8mLJfHZxseI+vIZxseI+vICR8mLJfH/yQ0EInV3B3TF2Pb/yQ0EInVMR1oMi7J3B3TF2PbZxseI+vIdx68Dy3SCR8mLJfHMR1oMi7J/yQ0EInVZxseI+vI/yQ0EInVdx68Dy3S"
+      },
+      "NRM": {
+        "type": "i8",
+        "b64": "diHeA5uzFGCvA5uzwqi9FGCvIZE0diHeUV0ddiHeFGCvUV0dmrcV5Al86VxV5Al8IZE06VxVIZE0UV0dJXkOFGCvwqi9tmTlwqi9mrcVtmTlmrcV6VxVtmTl6VxVIZE0HVxTUV0dFGCvJXkOFGCvtmTlJXkOwqi9A5uzIZE0mrcVwqi9IZE0tmTl6VxVJXkO6VxVHVxTJXkOGwmEiN8YggTvIzNviN8YdgotA8iOdgotiN8YGwmEA8iOiN8YIzNvGwmEggTvGwmEdgotA8iOGwmEIzNvdgotIzNvggTviN8YhOUJsZz7DhZ84EBp2wyHhOUJ4EBpcjIa2wyHDhZ8dAYzcjIasZz7ptSyU/ig4EBphOUJDhZ8ptSysZz7hOUJdAYzU/igcjIadAYzsZz7U/igU/igptSy2wyHsZz7dAYzDhZ8DhZ8cjIa4EBp2wyHcjIaU/ighOUJ2wyHptSycDoM7S2L2iN0wOVqaRdD2iN0YgWv14/X3t2L2iN07S2LheQP3t2LheQP7S2L7S2LYgWv3t2LwOVq2iN0heQPaRdDwOVq14/X7S2LcDoMYgWvheQP14/XwOVqcDoM2iN0aRdDYgWvcDoMaRdDaRdD14/XYgWv14/XheQP3t2Lm7nifwD5wxNuW0M5pdixhA4ZhA4ZpdixwxNuwxNuW0M5hA4ZW0M5XverpdixpdixXverfwD5wxNufwD5W0M5wxNupdixm7niXverW0M5fwD5pdixfwD5m7ni"
+      },
+      "UV": {
+        "type": "u16",
+        "b64": "Pq7wGnLLchvT0hA6cstyG/LwcCHT0hA6xxETm0s575qkMFC4a/ygztbXyNAo4fnFsIpWnKqoNZ4Kj8O/z241HvGWFBtXd8Q/Ruwbpyjh+cVm10O909IQOvLwcCEJ6SQ/VGZvobCKVpwifSS/sIpWnAqPw78ifSS/V3fEP/GWFBubiFs+KOH5xdbXyNBm10O91tfI0KDB3MJm10O9DQ9UJo00VRecQeRYlAOxSg0PVCacQeRYoMHcwqzM9bBm10O9rMz1sPDdcrVm10O9CiKp+foj3eZsJRP9iIlu/VuIXembj7vr5rJ49ca1N/yGrjj9+Fyp+XheR+g5Zt3mXqVA9x+mBv2+oi/7sh8p/HMXu+syHsfqsh8p/OwZbv1zF7vrvmLu+tBeE/05Zt3m/QLa3RYTasOFDCbYUVIP/eZJqfgCXNrdCNCt9PbeYvMg0hn9hQwm2CQX0s0iE5DzP5PqxxqdY9/lkZTWMwQP/f0C2t2FDCbYAE3j2iFZasMCXNrdj6JS18ivlNuNqhD9j6JS1wml6szIr5Tb5ZGU1hqdY98KoCn9FhNqwyQX0s2FDCbYhQwm2CITkPMzBA/9CqAp/TOTEPjlkZTWAlza3eZJqfgATePaGfAN9+TpCP2b6g7xGkHn4WhGHeZGOSv9mrIe4nm1NtZtu2rjcTSr9ncoAv2gLuLpTihq46Au4ul3KAL9xr4C/ZqyHuJtu2rjUzZn23E0q/agLuLpaEYd5hpB5+HbQbbcM3gC/Thy6vWpcx7ioC7i6U4xNtZTNmfbOHLq9Tlsq/Zma53fqXMe4jhy6vVma53fZmud31xvNtapcx7iTjE21qAu4ulOKGrjT0H29xdF6Pn1QEv9wHog/Zl6RfRGffn5Rn35+Zl6RfRLhbvtSvW77ef0IP2H8vn57eUg/dvkgPn25kX09uZF9NvkgPlo4VHp3sG77UHFUelpzCD9S4W77Zl6RfT2fwzpVc2A+WnMIP1BxVHp9uZF9GjhUekw5Qzp"
+      },
+      "COL": {
+        "type": "u8",
+        "b64": "QjkzKCIePTUvKCIeNzArPTUvSkA5QjkzNC0oQjkzPTUvNC0oNi8pS0E6JhYUS0E6SkA5JhYUSkA5NC0oeCUOPTUvNzArQDcxNzArNi8pQDcxNi8pJhYUQDcxJhYUSkA5z0sQNC0oPTUveCUOPTUvQDcxeCUONzArKCIeSkA5Ni8pNzArSkA5QDcxJhYUeCUOJhYUz0sQeCUO1Y8gj1UP5KUu1Y8gj1UPZToKllsQZToKj1UP1Y8gllsQj1UP1Y8g1Y8g5KUu1Y8gZToKllsQ1Y8g1Y8gZToK1Y8g5KUuj1UPghIdNC0oaA0Z+7qq+a6fghId+7qqwict+a6faA0ZVAsVwictNC0ogBEdJhYU+7qqghIdaA0ZgBEdNC0oghIdVAsVJhYUwictVAsVNC0oJhYUJhYUgBEd+a6fNC0oVAsVaA0ZaA0Zwict+7qq+a6fwictJhYUghId+a6fgBEd9MRS985s9MJNUUY+hU0N9MJNoGISSD43uHQW9MJN985st3MWuHQWt3MW985s985soGISuHQWUUY+9MJNt3MWhU0NUUY+SD43985s9MRSoGISt3MWSD43UUY+9MRS9MJNhU0NoGIS9MRShU0NhU0NSD43oGISSD43t3MWuHQWNC0oXQwXUwsV5EpAlxYhvSEqvSEqlxYhUwsVUwsV5EpAvSEq5EpA40k/lxYhlxYh40k/XQwXUwsVXQwX5EpAUwsVlxYhNC0o40k/5EpAXQwXlxYhXQwXNC0o"
+      }
+    }
+  },
+  "material": {
+    "lit": "phong",
+    "flipY": true,
+    "wrap": "clamp",
+    "normalScale": 0.4,
+    "bumpScale": 0,
+    "shininess": 60,
+    "specular": "#9db8ff",
+    "emissive": "#ffffff",
+    "emissiveIntensity": 0.25,
+    "emissiveMap": "own",
+    "glowPulse": {
+      "base": 0.25,
+      "amp": 0.25,
+      "periodMs": 2000
+    }
+  },
+  "maps": ["albedo", "normal", "height", "emissive"]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "@bomberman/content",
+  "version": "0.1.0",
+  "type": "module",
+  "exports": {
+    "./manifest.json": "./manifest.json",
+    "./pieces/*": "./pieces/*",
+    "./songs/*": "./songs/*"
+  }
+}

@@ -1,0 +1,1423 @@
+{
+  "schemaVersion": 1,
+  "generatedFrom": "packages/tools/src/content/manifest.ts",
+  "totalBytes": 7572144,
+  "pieces": [
+    {
+      "slug": "bill-blaster",
+      "label": "bill blaster",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 176,
+      "size": [0.8996, 0.8996, 0.99],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/bill-blaster.json",
+      "bytes": 13961,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "blue-mecha",
+      "label": "Blue Mecha",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 1535,
+      "size": [0.6523, 0.95, 0.5426],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/blue-mecha.json",
+      "bytes": 60305,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "bomber-bill",
+      "label": "bomber bill",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 882,
+      "size": [0.9, 0.6704, 0.6692],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/bomber-bill.json",
+      "bytes": 57595,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "coal-cart",
+      "label": "coal cart",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 272,
+      "size": [0.94, 0.6002, 0.643],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/coal-cart.json",
+      "bytes": 18463,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "crystal-mine-burst",
+      "label": "crystal mine burst",
+      "theme": "goldmine",
+      "kind": "tile",
+      "tris": 63,
+      "size": [0.835, 0.72, 0.8877],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/crystal-mine-burst.json",
+      "bytes": 5253,
+      "maps": ["albedo", "normal", "height", "emissive"]
+    },
+    {
+      "slug": "crystal-mine-divergent",
+      "label": "crystal mine divergent",
+      "theme": "goldmine",
+      "kind": "tile",
+      "tris": 64,
+      "size": [0.9336, 0.6868, 0.9079],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/crystal-mine-divergent.json",
+      "bytes": 5344,
+      "maps": ["albedo", "normal", "height", "emissive"]
+    },
+    {
+      "slug": "crystal-mine-monolith",
+      "label": "crystal mine monolith",
+      "theme": "goldmine",
+      "kind": "tile",
+      "tris": 64,
+      "size": [0.5021, 0.72, 0.4613],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/crystal-mine-monolith.json",
+      "bytes": 5317,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "crystal-mine-vein",
+      "label": "crystal mine vein",
+      "theme": "goldmine",
+      "kind": "tile",
+      "tris": 63,
+      "size": [0.7426, 0.7041, 0.7726],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/crystal-mine-vein.json",
+      "bytes": 5483,
+      "maps": ["albedo", "normal", "height", "emissive"]
+    },
+    {
+      "slug": "dicedark",
+      "label": "Dark Die",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 154,
+      "size": [0.9008, 0.8994, 0.9],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dicedark.json",
+      "bytes": 10876,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "dragonball-1",
+      "label": "dragon ball 1★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-1.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-2",
+      "label": "dragon ball 2★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-2.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-3",
+      "label": "dragon ball 3★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-3.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-4",
+      "label": "dragon ball 4★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-4.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-5",
+      "label": "dragon ball 5★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-5.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-6",
+      "label": "dragon ball 6★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-6.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "dragonball-7",
+      "label": "dragon ball 7★",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 722,
+      "size": [0.63, 0.63, 0.63],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/dragonball-7.json",
+      "bytes": 19471,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "duamutef-jar",
+      "label": "Duamutef jar",
+      "theme": "temple",
+      "kind": "prop",
+      "tris": 638,
+      "size": [0.3048, 0.9, 0.3958],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/duamutef-jar.json",
+      "bytes": 41869,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "egg",
+      "label": "egg",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 480,
+      "size": [0.6671, 0.9, 0.6638],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/egg.json",
+      "bytes": 31549,
+      "maps": ["albedo"]
+    },
+    {
+      "slug": "f1-tire",
+      "label": "f1 tire",
+      "theme": "f1",
+      "kind": "tile",
+      "tris": 171,
+      "size": [0.9966, 0.2107, 1],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/f1-tire.json",
+      "bytes": 13424,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "f1-tire-stack",
+      "label": "f1 tire stack",
+      "theme": "f1",
+      "kind": "tile",
+      "tris": 171,
+      "size": [0.9381, 0.72, 0.9383],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/f1-tire-stack.json",
+      "bytes": 13479,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "hex-pillar",
+      "label": "hex pillar",
+      "theme": "goldmine",
+      "kind": "tile",
+      "tris": 16,
+      "size": [0.96, 0.9, 0.8314],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/hex-pillar.json",
+      "bytes": 2367,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "landmine",
+      "label": "landmine",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 288,
+      "size": [0.7, 0.217, 0.7],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/landmine.json",
+      "bytes": 22266,
+      "maps": ["albedo", "normal", "emissive"]
+    },
+    {
+      "slug": "little-dice",
+      "label": "Little Dice",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 64,
+      "size": [0.8777, 0.8777, 0.8777],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/little-dice.json",
+      "bytes": 5138,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "little-round-dice",
+      "label": "Little Round Dice",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 164,
+      "size": [0.9, 0.9, 0.9],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/little-round-dice.json",
+      "bytes": 11589,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "mahjong-green",
+      "label": "mahjong green dragon",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 90,
+      "size": [0.694, 0.9, 0.4995],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/mahjong-green.json",
+      "bytes": 7770,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "mahjong-red",
+      "label": "mahjong red dragon",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 90,
+      "size": [0.694, 0.9, 0.4995],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/mahjong-red.json",
+      "bytes": 7758,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "mahjong-wall",
+      "label": "mahjong wall (two courses)",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 162,
+      "size": [0.694, 1.0195, 0.9],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/mahjong-wall.json",
+      "bytes": 12981,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "mahjong-white",
+      "label": "mahjong white dragon",
+      "theme": "classic",
+      "kind": "tile",
+      "tris": 90,
+      "size": [0.694, 0.9, 0.4995],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/mahjong-white.json",
+      "bytes": 7770,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "musha",
+      "label": "musha",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 2936,
+      "size": [0.7616, 0.95, 0.398],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/musha.json",
+      "bytes": 212922,
+      "maps": ["albedo", "normal", "emissive"]
+    },
+    {
+      "slug": "mushroom",
+      "label": "mushroom",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 636,
+      "size": [0.82, 0.88, 0.82],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/mushroom.json",
+      "bytes": 47048,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "sharkbomb",
+      "label": "shark bomb",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 308,
+      "size": [0.88, 0.3825, 0.3825],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/sharkbomb.json",
+      "bytes": 23734,
+      "maps": ["albedo", "normal", "emissive"]
+    },
+    {
+      "slug": "tire-stack",
+      "label": "tire stack",
+      "theme": "f1",
+      "kind": "tile",
+      "tris": 171,
+      "size": [0.9391, 0.72, 0.9382],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/tire-stack.json",
+      "bytes": 13453,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "tunnel-cross",
+      "label": "tunnel cross",
+      "theme": "goldmine",
+      "kind": "prop",
+      "tris": 420,
+      "size": [2.94, 1.15, 2.94],
+      "cells": [3, 3],
+      "yaw": 0,
+      "file": "pieces/tunnel-cross.json",
+      "bytes": 31472,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "tunnel-curve",
+      "label": "tunnel curve",
+      "theme": "goldmine",
+      "kind": "prop",
+      "tris": 325,
+      "size": [1.94, 1.15, 1.94],
+      "cells": [2, 2],
+      "yaw": 0,
+      "file": "pieces/tunnel-curve.json",
+      "bytes": 24629,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "tunnel-straight",
+      "label": "tunnel straight",
+      "theme": "goldmine",
+      "kind": "prop",
+      "tris": 176,
+      "size": [2.94, 1.15, 0.94],
+      "cells": [3, 1],
+      "yaw": 0,
+      "file": "pieces/tunnel-straight.json",
+      "bytes": 13920,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "tunnel-tee",
+      "label": "tunnel tee",
+      "theme": "goldmine",
+      "kind": "prop",
+      "tris": 370,
+      "size": [2.94, 1.15, 1.94],
+      "cells": [3, 2],
+      "yaw": 0,
+      "file": "pieces/tunnel-tee.json",
+      "bytes": 27860,
+      "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "wingbomb",
+      "label": "winged bomb",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 601,
+      "size": [0.88, 0.5638, 0.6073],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/wingbomb.json",
+      "bytes": 44832,
+      "maps": ["albedo", "normal", "emissive"]
+    },
+    {
+      "slug": "worldcup-trophy",
+      "label": "world cup trophy",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 633,
+      "size": [0.54, 1.6, 0.5318],
+      "cells": [1, 1],
+      "yaw": 45,
+      "file": "pieces/worldcup-trophy.json",
+      "bytes": 46894,
+      "maps": ["albedo", "normal"]
+    }
+  ],
+  "songs": [
+    {
+      "slug": "done",
+      "family": "sfx",
+      "label": "k.o.",
+      "file": "songs/done.json",
+      "bytes": 1841,
+      "channels": 1,
+      "seconds": 0.938
+    },
+    {
+      "slug": "downstepguess",
+      "family": "sfx",
+      "label": "downstepguess",
+      "file": "songs/downstepguess.json",
+      "bytes": 1978,
+      "channels": 1,
+      "seconds": 0.938
+    },
+    {
+      "slug": "draw",
+      "family": "sfx",
+      "label": "draw",
+      "file": "songs/draw.json",
+      "bytes": 7518,
+      "channels": 5,
+      "seconds": 4
+    },
+    {
+      "slug": "haaland",
+      "family": "tracks",
+      "label": "haaland",
+      "file": "songs/haaland.json",
+      "bytes": 12696,
+      "channels": 5,
+      "seconds": 29.089
+    },
+    {
+      "slug": "horn",
+      "family": "sfx",
+      "label": "horn",
+      "file": "songs/horn.json",
+      "bytes": 1829,
+      "channels": 1,
+      "seconds": 1.875
+    },
+    {
+      "slug": "hurry2",
+      "family": "sfx",
+      "label": "hurry2",
+      "file": "songs/hurry2.json",
+      "bytes": 7756,
+      "channels": 4,
+      "seconds": 21.333
+    },
+    {
+      "slug": "keepgoing",
+      "family": "tracks",
+      "label": "keep going?",
+      "file": "songs/keepgoing.json",
+      "bytes": 20200,
+      "channels": 5,
+      "seconds": 72.007
+    },
+    {
+      "slug": "kickoff",
+      "family": "sfx",
+      "label": "kickoff",
+      "file": "songs/kickoff.json",
+      "bytes": 31539,
+      "channels": 8,
+      "seconds": 75
+    },
+    {
+      "slug": "powerup",
+      "family": "sfx",
+      "label": "powerup",
+      "file": "songs/powerup.json",
+      "bytes": 3185,
+      "channels": 2,
+      "seconds": 0.743
+    },
+    {
+      "slug": "slowdown",
+      "family": "tracks",
+      "label": "slow down",
+      "file": "songs/slowdown.json",
+      "bytes": 61994,
+      "channels": 16,
+      "seconds": 76.8
+    },
+    {
+      "slug": "timesup",
+      "family": "sfx",
+      "label": "time's up",
+      "file": "songs/timesup.json",
+      "bytes": 3405,
+      "channels": 2,
+      "seconds": 1.875
+    },
+    {
+      "slug": "winner",
+      "family": "sfx",
+      "label": "winner",
+      "file": "songs/winner.json",
+      "bytes": 1856,
+      "channels": 1,
+      "seconds": 1.875
+    }
+  ],
+  "resources": [
+    {
+      "name": "pieces/bill-blaster.json",
+      "file": "pieces/bill-blaster.json",
+      "kind": "piece",
+      "bytes": 13961
+    },
+    {
+      "name": "bill-blaster-albedo.png",
+      "file": "bill-blaster-albedo.png",
+      "kind": "image",
+      "bytes": 19440
+    },
+    {
+      "name": "bill-blaster-normal.png",
+      "file": "bill-blaster-normal.png",
+      "kind": "image",
+      "bytes": 58729
+    },
+    {
+      "name": "pieces/blue-mecha.json",
+      "file": "pieces/blue-mecha.json",
+      "kind": "piece",
+      "bytes": 60305
+    },
+    {
+      "name": "blue-mecha-albedo.png",
+      "file": "blue-mecha-albedo.png",
+      "kind": "image",
+      "bytes": 305203
+    },
+    {
+      "name": "blue-mecha-normal.png",
+      "file": "blue-mecha-normal.png",
+      "kind": "image",
+      "bytes": 370243
+    },
+    {
+      "name": "pieces/bomber-bill.json",
+      "file": "pieces/bomber-bill.json",
+      "kind": "piece",
+      "bytes": 57595
+    },
+    {
+      "name": "bomber-bill-albedo.png",
+      "file": "bomber-bill-albedo.png",
+      "kind": "image",
+      "bytes": 50874
+    },
+    {
+      "name": "bomber-bill-normal.png",
+      "file": "bomber-bill-normal.png",
+      "kind": "image",
+      "bytes": 174095
+    },
+    {
+      "name": "bomber-bill-height.png",
+      "file": "bomber-bill-height.png",
+      "kind": "image",
+      "bytes": 87726
+    },
+    {
+      "name": "pieces/coal-cart.json",
+      "file": "pieces/coal-cart.json",
+      "kind": "piece",
+      "bytes": 18463
+    },
+    {
+      "name": "coal-cart-albedo.png",
+      "file": "coal-cart-albedo.png",
+      "kind": "image",
+      "bytes": 408625
+    },
+    {
+      "name": "coal-cart-normal.png",
+      "file": "coal-cart-normal.png",
+      "kind": "image",
+      "bytes": 131586
+    },
+    {
+      "name": "coal-cart-height.png",
+      "file": "coal-cart-height.png",
+      "kind": "image",
+      "bytes": 97853
+    },
+    {
+      "name": "pieces/crystal-mine-burst.json",
+      "file": "pieces/crystal-mine-burst.json",
+      "kind": "piece",
+      "bytes": 5253
+    },
+    {
+      "name": "crystal-mine-burst-albedo.png",
+      "file": "crystal-mine-burst-albedo.png",
+      "kind": "image",
+      "bytes": 160329
+    },
+    {
+      "name": "crystal-mine-burst-normal.png",
+      "file": "crystal-mine-burst-normal.png",
+      "kind": "image",
+      "bytes": 169006
+    },
+    {
+      "name": "crystal-mine-burst-height.png",
+      "file": "crystal-mine-burst-height.png",
+      "kind": "image",
+      "bytes": 148154
+    },
+    {
+      "name": "crystal-mine-burst-emissive.png",
+      "file": "crystal-mine-burst-emissive.png",
+      "kind": "image",
+      "bytes": 131705
+    },
+    {
+      "name": "pieces/crystal-mine-divergent.json",
+      "file": "pieces/crystal-mine-divergent.json",
+      "kind": "piece",
+      "bytes": 5344
+    },
+    {
+      "name": "crystal-mine-divergent-albedo.png",
+      "file": "crystal-mine-divergent-albedo.png",
+      "kind": "image",
+      "bytes": 130703
+    },
+    {
+      "name": "crystal-mine-divergent-normal.png",
+      "file": "crystal-mine-divergent-normal.png",
+      "kind": "image",
+      "bytes": 125219
+    },
+    {
+      "name": "crystal-mine-divergent-height.png",
+      "file": "crystal-mine-divergent-height.png",
+      "kind": "image",
+      "bytes": 105400
+    },
+    {
+      "name": "crystal-mine-divergent-emissive.png",
+      "file": "crystal-mine-divergent-emissive.png",
+      "kind": "image",
+      "bytes": 106420
+    },
+    {
+      "name": "pieces/crystal-mine-monolith.json",
+      "file": "pieces/crystal-mine-monolith.json",
+      "kind": "piece",
+      "bytes": 5317
+    },
+    {
+      "name": "crystal-mine-monolith-albedo.png",
+      "file": "crystal-mine-monolith-albedo.png",
+      "kind": "image",
+      "bytes": 147947
+    },
+    {
+      "name": "crystal-mine-monolith-normal.png",
+      "file": "crystal-mine-monolith-normal.png",
+      "kind": "image",
+      "bytes": 131218
+    },
+    {
+      "name": "crystal-mine-monolith-height.png",
+      "file": "crystal-mine-monolith-height.png",
+      "kind": "image",
+      "bytes": 114130
+    },
+    {
+      "name": "pieces/crystal-mine-vein.json",
+      "file": "pieces/crystal-mine-vein.json",
+      "kind": "piece",
+      "bytes": 5483
+    },
+    {
+      "name": "crystal-mine-vein-albedo.png",
+      "file": "crystal-mine-vein-albedo.png",
+      "kind": "image",
+      "bytes": 125474
+    },
+    {
+      "name": "crystal-mine-vein-normal.png",
+      "file": "crystal-mine-vein-normal.png",
+      "kind": "image",
+      "bytes": 115168
+    },
+    {
+      "name": "crystal-mine-vein-height.png",
+      "file": "crystal-mine-vein-height.png",
+      "kind": "image",
+      "bytes": 91899
+    },
+    {
+      "name": "crystal-mine-vein-emissive.png",
+      "file": "crystal-mine-vein-emissive.png",
+      "kind": "image",
+      "bytes": 46697
+    },
+    {
+      "name": "pieces/dicedark.json",
+      "file": "pieces/dicedark.json",
+      "kind": "piece",
+      "bytes": 10876
+    },
+    {
+      "name": "dicedark-albedo.png",
+      "file": "dicedark-albedo.png",
+      "kind": "image",
+      "bytes": 147320
+    },
+    {
+      "name": "dicedark-normal.png",
+      "file": "dicedark-normal.png",
+      "kind": "image",
+      "bytes": 135133
+    },
+    {
+      "name": "dicedark-height.png",
+      "file": "dicedark-height.png",
+      "kind": "image",
+      "bytes": 82214
+    },
+    {
+      "name": "pieces/dragonball-1.json",
+      "file": "pieces/dragonball-1.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-1-albedo.png",
+      "file": "dragonball-1-albedo.png",
+      "kind": "image",
+      "bytes": 56706
+    },
+    {
+      "name": "pieces/dragonball-2.json",
+      "file": "pieces/dragonball-2.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-2-albedo.png",
+      "file": "dragonball-2-albedo.png",
+      "kind": "image",
+      "bytes": 56463
+    },
+    {
+      "name": "pieces/dragonball-3.json",
+      "file": "pieces/dragonball-3.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-3-albedo.png",
+      "file": "dragonball-3-albedo.png",
+      "kind": "image",
+      "bytes": 57136
+    },
+    {
+      "name": "pieces/dragonball-4.json",
+      "file": "pieces/dragonball-4.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-4-albedo.png",
+      "file": "dragonball-4-albedo.png",
+      "kind": "image",
+      "bytes": 59496
+    },
+    {
+      "name": "pieces/dragonball-5.json",
+      "file": "pieces/dragonball-5.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-5-albedo.png",
+      "file": "dragonball-5-albedo.png",
+      "kind": "image",
+      "bytes": 59264
+    },
+    {
+      "name": "pieces/dragonball-6.json",
+      "file": "pieces/dragonball-6.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-6-albedo.png",
+      "file": "dragonball-6-albedo.png",
+      "kind": "image",
+      "bytes": 59553
+    },
+    {
+      "name": "pieces/dragonball-7.json",
+      "file": "pieces/dragonball-7.json",
+      "kind": "piece",
+      "bytes": 19471
+    },
+    {
+      "name": "dragonball-7-albedo.png",
+      "file": "dragonball-7-albedo.png",
+      "kind": "image",
+      "bytes": 59455
+    },
+    {
+      "name": "pieces/duamutef-jar.json",
+      "file": "pieces/duamutef-jar.json",
+      "kind": "piece",
+      "bytes": 41869
+    },
+    {
+      "name": "duamutef-jar-albedo.png",
+      "file": "duamutef-jar-albedo.png",
+      "kind": "image",
+      "bytes": 159857
+    },
+    {
+      "name": "duamutef-jar-normal.png",
+      "file": "duamutef-jar-normal.png",
+      "kind": "image",
+      "bytes": 67987
+    },
+    {
+      "name": "duamutef-jar-height.png",
+      "file": "duamutef-jar-height.png",
+      "kind": "image",
+      "bytes": 35172
+    },
+    {
+      "name": "pieces/egg.json",
+      "file": "pieces/egg.json",
+      "kind": "piece",
+      "bytes": 31549
+    },
+    {
+      "name": "egg-albedo.png",
+      "file": "egg-albedo.png",
+      "kind": "image",
+      "bytes": 126690
+    },
+    {
+      "name": "pieces/f1-tire.json",
+      "file": "pieces/f1-tire.json",
+      "kind": "piece",
+      "bytes": 13424
+    },
+    {
+      "name": "f1-tire-albedo.png",
+      "file": "f1-tire-albedo.png",
+      "kind": "image",
+      "bytes": 29178
+    },
+    {
+      "name": "f1-tire-normal.png",
+      "file": "f1-tire-normal.png",
+      "kind": "image",
+      "bytes": 1938
+    },
+    {
+      "name": "pieces/f1-tire-stack.json",
+      "file": "pieces/f1-tire-stack.json",
+      "kind": "piece",
+      "bytes": 13479
+    },
+    {
+      "name": "f1-tire-stack-albedo.png",
+      "file": "f1-tire-stack-albedo.png",
+      "kind": "image",
+      "bytes": 22531
+    },
+    {
+      "name": "f1-tire-stack-normal.png",
+      "file": "f1-tire-stack-normal.png",
+      "kind": "image",
+      "bytes": 2432
+    },
+    {
+      "name": "pieces/hex-pillar.json",
+      "file": "pieces/hex-pillar.json",
+      "kind": "piece",
+      "bytes": 2367
+    },
+    {
+      "name": "hex-pillar-albedo.png",
+      "file": "hex-pillar-albedo.png",
+      "kind": "image",
+      "bytes": 9653
+    },
+    {
+      "name": "hex-pillar-normal.png",
+      "file": "hex-pillar-normal.png",
+      "kind": "image",
+      "bytes": 177
+    },
+    {
+      "name": "pieces/landmine.json",
+      "file": "pieces/landmine.json",
+      "kind": "piece",
+      "bytes": 22266
+    },
+    {
+      "name": "landmine-albedo.png",
+      "file": "landmine-albedo.png",
+      "kind": "image",
+      "bytes": 12907
+    },
+    {
+      "name": "landmine-normal.png",
+      "file": "landmine-normal.png",
+      "kind": "image",
+      "bytes": 754
+    },
+    {
+      "name": "landmine-emissive.png",
+      "file": "landmine-emissive.png",
+      "kind": "image",
+      "bytes": 886
+    },
+    {
+      "name": "pieces/little-dice.json",
+      "file": "pieces/little-dice.json",
+      "kind": "piece",
+      "bytes": 5138
+    },
+    {
+      "name": "little-dice-albedo.png",
+      "file": "little-dice-albedo.png",
+      "kind": "image",
+      "bytes": 36618
+    },
+    {
+      "name": "little-dice-normal.png",
+      "file": "little-dice-normal.png",
+      "kind": "image",
+      "bytes": 70097
+    },
+    {
+      "name": "little-dice-height.png",
+      "file": "little-dice-height.png",
+      "kind": "image",
+      "bytes": 56967
+    },
+    {
+      "name": "pieces/little-round-dice.json",
+      "file": "pieces/little-round-dice.json",
+      "kind": "piece",
+      "bytes": 11589
+    },
+    {
+      "name": "little-round-dice-albedo.png",
+      "file": "little-round-dice-albedo.png",
+      "kind": "image",
+      "bytes": 14694
+    },
+    {
+      "name": "little-round-dice-normal.png",
+      "file": "little-round-dice-normal.png",
+      "kind": "image",
+      "bytes": 103403
+    },
+    {
+      "name": "little-round-dice-height.png",
+      "file": "little-round-dice-height.png",
+      "kind": "image",
+      "bytes": 70983
+    },
+    {
+      "name": "pieces/mahjong-green.json",
+      "file": "pieces/mahjong-green.json",
+      "kind": "piece",
+      "bytes": 7770
+    },
+    {
+      "name": "mahjong-green-albedo.png",
+      "file": "mahjong-green-albedo.png",
+      "kind": "image",
+      "bytes": 91221
+    },
+    {
+      "name": "mahjong-green-normal.png",
+      "file": "mahjong-green-normal.png",
+      "kind": "image",
+      "bytes": 23720
+    },
+    {
+      "name": "pieces/mahjong-red.json",
+      "file": "pieces/mahjong-red.json",
+      "kind": "piece",
+      "bytes": 7758
+    },
+    {
+      "name": "mahjong-red-albedo.png",
+      "file": "mahjong-red-albedo.png",
+      "kind": "image",
+      "bytes": 82552
+    },
+    {
+      "name": "mahjong-red-normal.png",
+      "file": "mahjong-red-normal.png",
+      "kind": "image",
+      "bytes": 8327
+    },
+    {
+      "name": "pieces/mahjong-wall.json",
+      "file": "pieces/mahjong-wall.json",
+      "kind": "piece",
+      "bytes": 12981
+    },
+    {
+      "name": "mahjong-wall-albedo.png",
+      "file": "mahjong-wall-albedo.png",
+      "kind": "image",
+      "bytes": 82552
+    },
+    {
+      "name": "mahjong-wall-normal.png",
+      "file": "mahjong-wall-normal.png",
+      "kind": "image",
+      "bytes": 8327
+    },
+    {
+      "name": "pieces/mahjong-white.json",
+      "file": "pieces/mahjong-white.json",
+      "kind": "piece",
+      "bytes": 7770
+    },
+    {
+      "name": "mahjong-white-albedo.png",
+      "file": "mahjong-white-albedo.png",
+      "kind": "image",
+      "bytes": 78757
+    },
+    {
+      "name": "mahjong-white-normal.png",
+      "file": "mahjong-white-normal.png",
+      "kind": "image",
+      "bytes": 11858
+    },
+    {
+      "name": "pieces/musha.json",
+      "file": "pieces/musha.json",
+      "kind": "piece",
+      "bytes": 212922
+    },
+    {
+      "name": "musha-albedo.png",
+      "file": "musha-albedo.png",
+      "kind": "image",
+      "bytes": 31951
+    },
+    {
+      "name": "musha-normal.png",
+      "file": "musha-normal.png",
+      "kind": "image",
+      "bytes": 50726
+    },
+    {
+      "name": "musha-emissive.png",
+      "file": "musha-emissive.png",
+      "kind": "image",
+      "bytes": 7952
+    },
+    {
+      "name": "pieces/mushroom.json",
+      "file": "pieces/mushroom.json",
+      "kind": "piece",
+      "bytes": 47048
+    },
+    {
+      "name": "mushroom-albedo.png",
+      "file": "mushroom-albedo.png",
+      "kind": "image",
+      "bytes": 65656
+    },
+    {
+      "name": "mushroom-normal.png",
+      "file": "mushroom-normal.png",
+      "kind": "image",
+      "bytes": 73997
+    },
+    {
+      "name": "pieces/sharkbomb.json",
+      "file": "pieces/sharkbomb.json",
+      "kind": "piece",
+      "bytes": 23734
+    },
+    {
+      "name": "sharkbomb-albedo.png",
+      "file": "sharkbomb-albedo.png",
+      "kind": "image",
+      "bytes": 53081
+    },
+    {
+      "name": "sharkbomb-normal.png",
+      "file": "sharkbomb-normal.png",
+      "kind": "image",
+      "bytes": 64147
+    },
+    {
+      "name": "sharkbomb-emissive.png",
+      "file": "sharkbomb-emissive.png",
+      "kind": "image",
+      "bytes": 4076
+    },
+    {
+      "name": "pieces/tire-stack.json",
+      "file": "pieces/tire-stack.json",
+      "kind": "piece",
+      "bytes": 13453
+    },
+    {
+      "name": "tire-stack-albedo.png",
+      "file": "tire-stack-albedo.png",
+      "kind": "image",
+      "bytes": 27423
+    },
+    {
+      "name": "tire-stack-normal.png",
+      "file": "tire-stack-normal.png",
+      "kind": "image",
+      "bytes": 77401
+    },
+    {
+      "name": "pieces/tunnel-cross.json",
+      "file": "pieces/tunnel-cross.json",
+      "kind": "piece",
+      "bytes": 31472
+    },
+    {
+      "name": "tunnel-cross-albedo.png",
+      "file": "tunnel-cross-albedo.png",
+      "kind": "image",
+      "bytes": 9662
+    },
+    {
+      "name": "tunnel-cross-normal.png",
+      "file": "tunnel-cross-normal.png",
+      "kind": "image",
+      "bytes": 9608
+    },
+    {
+      "name": "pieces/tunnel-curve.json",
+      "file": "pieces/tunnel-curve.json",
+      "kind": "piece",
+      "bytes": 24629
+    },
+    {
+      "name": "tunnel-curve-albedo.png",
+      "file": "tunnel-curve-albedo.png",
+      "kind": "image",
+      "bytes": 9662
+    },
+    {
+      "name": "tunnel-curve-normal.png",
+      "file": "tunnel-curve-normal.png",
+      "kind": "image",
+      "bytes": 9608
+    },
+    {
+      "name": "pieces/tunnel-straight.json",
+      "file": "pieces/tunnel-straight.json",
+      "kind": "piece",
+      "bytes": 13920
+    },
+    {
+      "name": "tunnel-straight-albedo.png",
+      "file": "tunnel-straight-albedo.png",
+      "kind": "image",
+      "bytes": 9662
+    },
+    {
+      "name": "tunnel-straight-normal.png",
+      "file": "tunnel-straight-normal.png",
+      "kind": "image",
+      "bytes": 9608
+    },
+    {
+      "name": "pieces/tunnel-tee.json",
+      "file": "pieces/tunnel-tee.json",
+      "kind": "piece",
+      "bytes": 27860
+    },
+    {
+      "name": "tunnel-tee-albedo.png",
+      "file": "tunnel-tee-albedo.png",
+      "kind": "image",
+      "bytes": 9662
+    },
+    {
+      "name": "tunnel-tee-normal.png",
+      "file": "tunnel-tee-normal.png",
+      "kind": "image",
+      "bytes": 9608
+    },
+    {
+      "name": "pieces/wingbomb.json",
+      "file": "pieces/wingbomb.json",
+      "kind": "piece",
+      "bytes": 44832
+    },
+    {
+      "name": "wingbomb-albedo.png",
+      "file": "wingbomb-albedo.png",
+      "kind": "image",
+      "bytes": 34340
+    },
+    {
+      "name": "wingbomb-normal.png",
+      "file": "wingbomb-normal.png",
+      "kind": "image",
+      "bytes": 754
+    },
+    {
+      "name": "wingbomb-emissive.png",
+      "file": "wingbomb-emissive.png",
+      "kind": "image",
+      "bytes": 2803
+    },
+    {
+      "name": "pieces/worldcup-trophy.json",
+      "file": "pieces/worldcup-trophy.json",
+      "kind": "piece",
+      "bytes": 46894
+    },
+    {
+      "name": "worldcup-trophy-albedo.png",
+      "file": "worldcup-trophy-albedo.png",
+      "kind": "image",
+      "bytes": 153888
+    },
+    {
+      "name": "worldcup-trophy-normal.png",
+      "file": "worldcup-trophy-normal.png",
+      "kind": "image",
+      "bytes": 170633
+    },
+    {
+      "name": "songs/done.json",
+      "file": "songs/done.json",
+      "kind": "song",
+      "bytes": 1841
+    },
+    {
+      "name": "songs/downstepguess.json",
+      "file": "songs/downstepguess.json",
+      "kind": "song",
+      "bytes": 1978
+    },
+    {
+      "name": "songs/draw.json",
+      "file": "songs/draw.json",
+      "kind": "song",
+      "bytes": 7518
+    },
+    {
+      "name": "songs/haaland.json",
+      "file": "songs/haaland.json",
+      "kind": "song",
+      "bytes": 12696
+    },
+    {
+      "name": "songs/horn.json",
+      "file": "songs/horn.json",
+      "kind": "song",
+      "bytes": 1829
+    },
+    {
+      "name": "songs/hurry2.json",
+      "file": "songs/hurry2.json",
+      "kind": "song",
+      "bytes": 7756
+    },
+    {
+      "name": "songs/keepgoing.json",
+      "file": "songs/keepgoing.json",
+      "kind": "song",
+      "bytes": 20200
+    },
+    {
+      "name": "songs/kickoff.json",
+      "file": "songs/kickoff.json",
+      "kind": "song",
+      "bytes": 31539
+    },
+    {
+      "name": "songs/powerup.json",
+      "file": "songs/powerup.json",
+      "kind": "song",
+      "bytes": 3185
+    },
+    {
+      "name": "songs/slowdown.json",
+      "file": "songs/slowdown.json",
+      "kind": "song",
+      "bytes": 61994
+    },
+    {
+      "name": "songs/timesup.json",
+      "file": "songs/timesup.json",
+      "kind": "song",
+      "bytes": 3405
+    },
+    {
+      "name": "songs/winner.json",
+      "file": "songs/winner.json",
+      "kind": "song",
+      "bytes": 1856
+    }
+  ]
+}
