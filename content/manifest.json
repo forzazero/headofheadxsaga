@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "packages/tools/src/content/manifest.ts",
-  "totalBytes": 7572144,
+  "totalBytes": 8141920,
   "pieces": [
     {
       "slug": "bill-blaster",
@@ -392,6 +392,19 @@
       "file": "pieces/mushroom.json",
       "bytes": 47048,
       "maps": ["albedo", "normal"]
+    },
+    {
+      "slug": "obelisk",
+      "label": "Egyptian obelisk",
+      "theme": "temple",
+      "kind": "tile",
+      "tris": 124,
+      "size": [0.709, 2, 0.709],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/obelisk.json",
+      "bytes": 9004,
+      "maps": ["albedo", "normal", "height"]
     },
     {
       "slug": "sharkbomb",
@@ -1190,6 +1203,30 @@
       "file": "mushroom-normal.png",
       "kind": "image",
       "bytes": 73997
+    },
+    {
+      "name": "pieces/obelisk.json",
+      "file": "pieces/obelisk.json",
+      "kind": "piece",
+      "bytes": 9004
+    },
+    {
+      "name": "obelisk-albedo.png",
+      "file": "obelisk-albedo.png",
+      "kind": "image",
+      "bytes": 360446
+    },
+    {
+      "name": "obelisk-normal.png",
+      "file": "obelisk-normal.png",
+      "kind": "image",
+      "bytes": 166849
+    },
+    {
+      "name": "obelisk-height.png",
+      "file": "obelisk-height.png",
+      "kind": "image",
+      "bytes": 33477
     },
     {
       "name": "pieces/sharkbomb.json",
