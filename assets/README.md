@@ -81,6 +81,14 @@ writes it and `--check` verifies the committed file still matches the code that
 claims to have produced it; `packages/client/test/blockdrop.test.ts` runs that
 check in the suite. Change the drawing, re-run the painter, commit both.
 
+`fx/magic-circle-atlas.png` (400×80, five 80² tiles in a 1×5 strip, row-major) is
+the ground rune for the arena-entry descent: a GREYSCALE MASK on transparency
+like the kick burst, alpha carrying the linework at full tint (255) with no
+shading ramp, so the renderer's player-color multiply reads as a clean glow
+rather than a lit dome. One of the five is picked at random per descent and spun
+underfoot. Traced from the five `circl0N` reference marks; not yet wired to a
+renderer feature.
+
 `locked.png` (64², straight RGBA — no mask, no tint) is the lock-on reticle,
 drawn over the head of whoever a wingbomb has locked onto (§3.4.3). It is sized
 to 80% of the 1.15 billboard and drawn with depth testing off, so it is always
@@ -207,3 +215,27 @@ treats an incomplete set as absent. What happens next depends on the piece: the
 boss wall drops to its procedural glass, and a forged piece, having no procedural
 stone under it, drops to the vertex colours baked into its own module. The
 reviewer says which one you are looking at either way.
+
+`ko-knife.png` (128², transparent) is the knife between the two name plates on
+the K.O. card (`Spectacle.tsx`, `killer [knife] victim`). Pixel art with its flat
+background cut out; the card draws it a plate tall. If it is missing the card
+falls back to the arrow.
+
+`ko-self.png` (128², transparent) is its self-kill twin: the knife stood in its
+own pool, drawn after the victim's plate (`victim [knife]`) when their own flame
+did it. Missing, the self-kill card is the plate alone.
+
+`blood-splat.png` (768×128, transparent) is six 128² frames side by side of the
+splat a K.O. by fire leaves on the floor (`bloodfx.ts`, rules in
+`game/bloodTrail.ts`), in two families. RADIAL, types 1, 3 and 4 (frames 0, 2,
+3): the bomb went off on the fighter's cell, blood every way. DIRECTED, types 2,
+5 and 6 (frames 1, 4, 5 — spray, narrow jet, wide fan): the bomb went off away
+along the fire, and the frame sprays toward its right, which the game turns to
+point away from the blast. Procedural and seeded — regenerate with
+`python3 packages/tools/src/blood-splats.py [review.png]`. Drawn 1.5 cells
+across for five minutes, the last one a fade. Missing, no splats are drawn.
+
+`ko-monster.png` (128², transparent) is the monster-kill card's icon: a demon's
+face drawn BEFORE the victim's plate (`[monster] victim`) when a monster killed
+them (`killedByMonster`), 1.35 plates tall because the face fills its square.
+Missing, the card is the plate alone.

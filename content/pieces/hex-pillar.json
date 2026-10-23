@@ -10,12 +10,12 @@
   "yaw": 0,
   "source": {
     "file": "hex-pillar.obj",
-    "command": "bun packages/tools/src/model-forge.ts model assets/goldmine/hex-pillar.obj --name hex-pillar --label hex pillar --target solid --theme goldmine --source-maps --albedo packages/client/assets/geitamine-albedo.png --normal assets/crystal-mines/flat-normal.png --map 64 --budget 32 --bump-scale 0 --material phong"
+    "command": "bun packages/tools/src/model-forge.ts model assets/goldmine/hex-pillar.obj --name hex-pillar --label hex pillar --target solid --theme goldmine --source-maps --albedo packages/client/assets/geitamine-albedo.png --normal assets/goldmine/solid-normal.png --height assets/goldmine/solid-height.png --map 64 --budget 32 --bump-scale 0.04 --material phong"
   },
   "geometry": {
     "vertices": 48,
     "corners": 48,
-    "posScale": 0.0000274666585284,
+    "posScale": 0.000027466658528397473,
     "attributes": {
       "POS": {
         "type": "i16",
@@ -31,7 +31,7 @@
       },
       "COL": {
         "type": "u8",
-        "b64": "oJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUoJ6onZ6riIaOoJ6oiIaOi4mUg4aNT1NddXh/g4aNbXF5T1Ndg4aNbXF4bXF5g4aNfYCHbXF4"
+        "b64": "NY2INY2IwuDdNY2IwuDdxuXiNY2INY2IwuDdNY2IwuDdxuXiNY2INY2IwuDdNY2IwuDdxuXiNY2INY2IwuDdNY2IwuDdxuXiNY2INY2IwuDdNY2IwuDdxuXiNY2INY2IwuDdNY2IwuDdxuXig4aNT1NddXh/g4aNbXF5T1Ndg4aNbXF4bXF5g4aNfYCHbXF4"
       },
       "IDX": {
         "type": "u16",
@@ -44,9 +44,9 @@
     "flipY": false,
     "wrap": "clamp",
     "normalScale": 1.1,
-    "bumpScale": 0,
+    "bumpScale": 0.04,
     "shininess": 20,
     "specular": "#6f6a5c"
   },
-  "maps": ["albedo", "normal"]
+  "maps": ["albedo", "normal", "height"]
 }

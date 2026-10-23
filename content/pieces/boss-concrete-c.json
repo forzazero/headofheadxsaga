@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "slug": "boss-concrete-c",
+  "label": "boss concrete c",
+  "theme": "boss",
+  "kind": "tile",
+  "tris": 64,
+  "size": [0.9193, 0.6269, 0.4854],
+  "cells": [1, 1],
+  "yaw": 0,
+  "source": {
+    "file": "boss-concrete-c.obj",
+    "command": "bun packages/tools/src/model-forge.ts model assets/boss-concrete/boss-concrete-c.obj --name boss-concrete-c --label boss concrete c --target brick --budget 64 --theme boss --albedo assets/boss-concrete/boss-concrete-albedo.png --map 1024 --normal-scale 1.2 --material lambert"
+  },
+  "geometry": {
+    "vertices": 192,
+    "corners": 192,
+    "posScale": 0.000019133010770634653,
+    "attributes": {
+      "POS": {
+        "type": "i16",
+        "b64": "Jqq2CXTSB9ggC0bTZckWAPD2NemsUUMZvf8QNqoJPPIAOKnWOVzWBOEr1116NdAolj0sCL0vFu44YnLONsC9dQXuje//f3X4AQ0AAOIPlj0sCL0v+fpJKIYu+fpJKIYuFvctADsxAQ0AAOIP9++EXI4x+fpJKIYuNemsUUMZ+fpJKIYuLyfaOx0evf8QNqoJWUI5Mq/RLxEBMLjR3hIoN3LyLyfaOx0e3hIoN3Lyvf8QNqoJc8FuLz4wDqX8ZR0s86I7LHsoc8FuLz4wFvctADsx+fpJKIYuNsC9dQXuyaLzcLT/DqX8ZR0s86I7LHsoDqX8ZR0sv6TyaeQMPPIAOKnWvf8QNqoJ3hIoN3Ly1116NdAoV1c0AUrdWUI5Mq/Rlj0sCL0v1116NdAo7jq5M+gwPPIAOKnW3hIoN3LyLxEBMLjRpb4Ke1gx9++EXI4x8M9Vf3Idth3+BYzOWUI5Mq/RV1c0AUrdPqNMap/RFu44YnLOT6V6OB3R+fpJKIYu9++EXI4xc8FuLz4wpb4Ke1gxc8FuLz4w9++EXI4xpb4Ke1gx8M9Vf3IdDqX8ZR0s+fpJKIYulj0sCL0vLyfaOx0eJqq2CXTSKaLLFlkHT6V6OB3R7jq5M+gw1116NdAoLyfaOx0e9++EXI4xje//f3X48M9Vf3IdgaVTCDsqFvctADsxc8FuLz4wPqNMap/RNsC9dQXuFu44YnLOKaLLFlkHgaVTCDsq86I7LHsogaVTCDsqc8FuLz4w86I7LHsoc8FuLz4wpb4Ke1gxDqX8ZR0sB9ggC0bTJqq2CXTST6V6OB3RLyfaOx0elj0sCL0v7jq5M+gw1116NdAoOVzWBOErV1c0AUrdWUI5Mq/R3hIoN3LyLyfaOx0eB9ggC0bTPPIAOKnWLxEBMLjRLxEBMLjRth3+BYzOB9ggC0bTPPIAOKnWFu44YnLOje//f3X4NemsUUMZ+fpJKIYuvf8QNqoJLxEBMLjRWUI5Mq/Rth3+BYzOPqNMap/RyaLzcLT/NsC9dQXuNsC9dQXu8M9Vf3Idje//f3X4AQ0AAOIPZckWAPD2B9ggC0bT20LTARcLlj0sCL0vAQ0AAOIPKaLLFlkH7aORAmT6gaVTCDsqAQ0AAOIPB9ggC0bTth3+BYzODqX8ZR0s8M9Vf3IdNsC9dQXuT6V6OB3RKaLLFlkHPqNMap/R86I7LHsoPqNMap/RKaLLFlkH9++EXI4xNemsUUMZje//f3X4Jqq2CXTSZckWAPD27aORAmT61116NdAoWUI5Mq/RLyfaOx0e7aORAmT6KaLLFlkHJqq2CXTST6V6OB3RFu44YnLOB9ggC0bTFu44YnLOPPIAOKnWB9ggC0bTZckWAPD2FvctADsxgaVTCDsq7aORAmT6ZckWAPD2gaVTCDsqyaLzcLT/v6TyaeQMDqX8ZR0sv6TyaeQMPqNMap/R86I7LHsoyaLzcLT/PqNMap/Rv6TyaeQMOVzWBOErlj0sCL0v20LTARcLje//f3X4NemsUUMZPPIAOKnW"
+      },
+      "NRM": {
+        "type": "i8",
+        "b64": "t7a3Ab+T/YH4fBkAJ3gMbTPXYrglZkoP9s50FiSI6nrjaUf7AYEL9s50HxF6HxF6CKRXAYELPyJpHxF6fBkAHxF6/XklJ3gMNF68/DSMAX7x/XklAX7xJ3gM9v1/r0hDhgIi9v1/CKRXHxF66nrj1HcHr0hDhgIir0hDgQEDbTPXJ3gMAX7xZkoPW7XQNF689s50ZkoP7CF5bTPXAX7x/DSM+x57PyJp+30V/6emNF68W7XQkiTNFiSIzPmMHxF6PyJp9v1/+x579v1/PyJp+x57+30Vr0hDHxF69s50/Xklt7a3gfv7zPmM7CF5ZkoP/XklPyJpaUf7+30V0qNJCKRX9v1/kiTN6nrjFiSIgfv70qNJhgIi0qNJ9v1/hgIi9v1/+x57r0hDAb+Tt7a3zPmM/Xkl9s507CF5ZkoPYrglW7XQNF68AX7x/XklAb+TbTPX/DSM/DSM/6emAb+TbTPXFiSIaUf7fBkAHxF6J3gM/DSMNF68/6emkiTN1HcH6nrj6nrj+30VaUf7AYEL/YH4Ab+TBIIM9s50AYELgfv7v5P70qNJAYELAb+T/6emr0hD+30V6nrjzPmMgfv7kiTNhgIikiTNgfv7PyJpfBkAaUf7t7a3/YH4v5P7ZkoPNF68/Xklv5P7gfv7t7a3zPmMFiSIAb+TFiSIbTPXAb+T/YH4CKRX0qNJv5P7/YH40qNJ1HcHgQEDr0hDgQEDkiTNhgIi1HcHkiTNgQEDYrgl9s50BIIMaUf7fBkAbTPX"
+      },
+      "UV": {
+        "type": "u16",
+        "b64": "cokPY5mmlGNNnT168y+Q4Nw5BM9FWkDQmnoTBaF7+yMiZzEHnjR9n3cXbIuMNcqEQ0gAAiJnMQfOPJkbcCJDxrggx6zoNaqsgyBz53AiQ8bzL5DgzjxvYuZY3WzVP9x5KGpunetKaJ39S5yI5ljdbP1LnIjVP9x5QRgkIDYGzkLfBBseQRgkIFY6HQLOPJkbdxdsi8UEMIA2BvhjuNnFyAfceO0wyPzvQTdEmtU/3Hn9S5yIESalzg5Wbq1uXZTMImcxB6F7+yNyZd4iQTdEmv1LnIjrSmideBalYM81gmB1IUltHq3PBdeV6iGAiMQC8PqLRWHLaUCg+eMlzjyZG881yTxBGCQgeBYuUEEYJCDPNck8eBalYHUhSW02BvhjzjyZGyJnMQfmWAgoDqPWsqrEJrs1oo3QcmXsYKF7EWbmWN1szzWCYIw1yoR1IUltfwZKB1Y6HQJBGCQgDwV4nXcXbIueNH2fqsQmu9Xa9LG42cXIfwZKB0EYJCDfBBseQRgkIHgWLlA2Bs5CZdkSCY32LAig+eMl5lgIKCJnMQdyZd4iESalzh4kva8OVm6tKGpunf1LnIjmWN1sZdkSCb7IliUUtYEgFLWBIB6tzwVl2RIJRVpA0H1fE+vLRP/98y+Q4HAiQ8bcOQTPFLWBINeV6iEerc8FDwV4ncUEMIB3F2yLdxdsi3UhSW2MNcqEQ8gXik2dPXqZppRjeuoMhyHnVZ5DyBeKqsQmu2+8TK7V2vSxQ8gXipmmlGPg0pNgNgb4Y3UhSW13F2yLNaKN0KrEJruHojXwuNnFyIeiNfCqxCa7gyBz5/MvkODLRP/9cokPY02dPXp+hW98oXsRZihqbp3mWN1sb7xMrqrEJrsOo9ayoPnjJWHLaUBl2RIJYctpQL7IliVl2RIJTZ09ela6SJ9+htWafoVvfE2dPXp+htWaz79w9DDI/O8H3HjtMMj874eiNfC42cXIz79w9IeiNfAwyPzvmfrhmyHnVZ566gyHy0T//fMvkOBFWkDQ"
+      },
+      "COL": {
+        "type": "u8",
+        "b64": "l5iXcHBtcHFwkJCPj46JqKWdwsC6gIGBj46JkZGNgYODjpCQkI+Lj46JgYKCgYKCjIyLkI+Lk5KPgYKCkJCPgYKCrKyqj46JjouEw8K9l5WQrKyql5WQj46JgIB/qKeji4yMgIB/jIyLgYKCgYODnpyWqKeji4yMqKejpaWhqKWdj46Jl5WQgIGBf398jouEj46JgIGBiIV/qKWdl5WQw8K9rqynk5KPgH56mJeTjouEf398o6KckZGNj4yFgYKCk5KPgIB/rqyngIB/k5KPrqyngH56qKejgYKCj46JrKyql5iXnp2aj4yFiIV/gIGBrKyqk5KPjpCQgH56r66pjIyLgIB/o6KcgYODkZGNnp2ar66pi4yMr66pgIB/i4yMgIB/rqynqKejcHBtl5iXj4yFrKyqj46JiIV/gIGBwsC6f398jouEl5WQrKyqcHBtqKWdw8K9w8K9mJeTcHBtqKWdkZGNjpCQkJCPgYKCj46Jw8K9jouEmJeTo6KcnpyWgYODgYODgH56jpCQkI+LcHFwcHBtkpGNj46JkI+Lnp2afX17r66pkI+LcHBtmJeTqKejgH56gYODj4yFnp2ao6Kci4yMo6Kcnp2ak5KPkJCPjpCQl5iXcHFwfX17gIGBjouErKyqfX17np2al5iXj4yFkZGNcHBtkZGNqKWdcHBtcHFwjIyLr66pfX17cHFwr66pnpyWpaWhqKejpaWho6Kci4yMnpyWo6KcpaWhwsC6j46JkpGNjpCQkJCPqKWd"
+      }
+    }
+  },
+  "material": {
+    "lit": "lambert",
+    "flipY": true,
+    "wrap": "clamp",
+    "normalScale": 1.2,
+    "bumpScale": 0.06
+  },
+  "maps": ["albedo", "normal", "height"]
+}

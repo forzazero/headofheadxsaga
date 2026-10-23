@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "generatedFrom": "packages/tools/src/content/manifest.ts",
-  "totalBytes": 8141920,
+  "totalBytes": 15106609,
   "pieces": [
     {
       "slug": "bill-blaster",
@@ -30,6 +30,19 @@
       "maps": ["albedo", "normal"]
     },
     {
+      "slug": "bomb-legs",
+      "label": "walker bomb",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 472,
+      "size": [0.68, 0.7836, 0.68],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/bomb-legs.json",
+      "bytes": 35240,
+      "maps": ["albedo", "normal"]
+    },
+    {
       "slug": "bomber-bill",
       "label": "bomber bill",
       "theme": "classic",
@@ -40,6 +53,45 @@
       "yaw": 0,
       "file": "pieces/bomber-bill.json",
       "bytes": 57595,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "boss-concrete-a",
+      "label": "boss concrete a",
+      "theme": "boss",
+      "kind": "tile",
+      "tris": 59,
+      "size": [0.6789, 0.6676, 0.5089],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/boss-concrete-a.json",
+      "bytes": 4880,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "boss-concrete-b",
+      "label": "boss concrete b",
+      "theme": "boss",
+      "kind": "tile",
+      "tris": 63,
+      "size": [0.8928, 0.5245, 0.7762],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/boss-concrete-b.json",
+      "bytes": 5137,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "boss-concrete-c",
+      "label": "boss concrete c",
+      "theme": "boss",
+      "kind": "tile",
+      "tris": 64,
+      "size": [0.9193, 0.6269, 0.4854],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/boss-concrete-c.json",
+      "bytes": 5201,
       "maps": ["albedo", "normal", "height"]
     },
     {
@@ -60,12 +112,12 @@
       "label": "crystal mine burst",
       "theme": "goldmine",
       "kind": "tile",
-      "tris": 63,
-      "size": [0.835, 0.72, 0.8877],
+      "tris": 84,
+      "size": [0.8359, 0.72, 0.9348],
       "cells": [1, 1],
       "yaw": 0,
       "file": "pieces/crystal-mine-burst.json",
-      "bytes": 5253,
+      "bytes": 6835,
       "maps": ["albedo", "normal", "height", "emissive"]
     },
     {
@@ -73,12 +125,12 @@
       "label": "crystal mine divergent",
       "theme": "goldmine",
       "kind": "tile",
-      "tris": 64,
-      "size": [0.9336, 0.6868, 0.9079],
+      "tris": 110,
+      "size": [0.9125, 0.72, 0.659],
       "cells": [1, 1],
       "yaw": 0,
       "file": "pieces/crystal-mine-divergent.json",
-      "bytes": 5344,
+      "bytes": 8528,
       "maps": ["albedo", "normal", "height", "emissive"]
     },
     {
@@ -87,12 +139,12 @@
       "theme": "goldmine",
       "kind": "tile",
       "tris": 64,
-      "size": [0.5021, 0.72, 0.4613],
+      "size": [0.4721, 0.72, 0.3498],
       "cells": [1, 1],
       "yaw": 0,
       "file": "pieces/crystal-mine-monolith.json",
-      "bytes": 5317,
-      "maps": ["albedo", "normal", "height"]
+      "bytes": 6323,
+      "maps": ["albedo", "normal", "height", "emissive"]
     },
     {
       "slug": "crystal-mine-vein",
@@ -264,6 +316,19 @@
       "maps": ["albedo", "normal"]
     },
     {
+      "slug": "hapi-jar",
+      "label": "Hapi jar",
+      "theme": "soccer",
+      "kind": "prop",
+      "tris": 639,
+      "size": [0.347, 0.8995, 0.347],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/hapi-jar.json",
+      "bytes": 41909,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
       "slug": "hex-pillar",
       "label": "hex pillar",
       "theme": "goldmine",
@@ -273,8 +338,21 @@
       "cells": [1, 1],
       "yaw": 0,
       "file": "pieces/hex-pillar.json",
-      "bytes": 2367,
-      "maps": ["albedo", "normal"]
+      "bytes": 2426,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
+      "slug": "imsety-jar",
+      "label": "Imsety jar",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 648,
+      "size": [0.3084, 0.8978, 0.3166],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/imsety-jar.json",
+      "bytes": 42502,
+      "maps": ["albedo", "normal", "height"]
     },
     {
       "slug": "landmine",
@@ -407,6 +485,19 @@
       "maps": ["albedo", "normal", "height"]
     },
     {
+      "slug": "qebehsenuef-jar",
+      "label": "Qebehsenuef jar",
+      "theme": "boss",
+      "kind": "prop",
+      "tris": 700,
+      "size": [0.3451, 0.8983, 0.3451],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/qebehsenuef-jar.json",
+      "bytes": 45854,
+      "maps": ["albedo", "normal", "height"]
+    },
+    {
       "slug": "sharkbomb",
       "label": "shark bomb",
       "theme": "classic",
@@ -495,6 +586,19 @@
       "yaw": 0,
       "file": "pieces/wingbomb.json",
       "bytes": 44832,
+      "maps": ["albedo", "normal", "emissive"]
+    },
+    {
+      "slug": "wingbomb-wire",
+      "label": "winged bomb with antenna",
+      "theme": "classic",
+      "kind": "prop",
+      "tris": 634,
+      "size": [0.88, 0.7, 0.6073],
+      "cells": [1, 1],
+      "yaw": 0,
+      "file": "pieces/wingbomb-wire.json",
+      "bytes": 47275,
       "maps": ["albedo", "normal", "emissive"]
     },
     {
@@ -659,6 +763,24 @@
       "bytes": 370243
     },
     {
+      "name": "pieces/bomb-legs.json",
+      "file": "pieces/bomb-legs.json",
+      "kind": "piece",
+      "bytes": 35240
+    },
+    {
+      "name": "bomb-legs-albedo.png",
+      "file": "bomb-legs-albedo.png",
+      "kind": "image",
+      "bytes": 318845
+    },
+    {
+      "name": "bomb-legs-normal.png",
+      "file": "bomb-legs-normal.png",
+      "kind": "image",
+      "bytes": 175104
+    },
+    {
       "name": "pieces/bomber-bill.json",
       "file": "pieces/bomber-bill.json",
       "kind": "piece",
@@ -681,6 +803,78 @@
       "file": "bomber-bill-height.png",
       "kind": "image",
       "bytes": 87726
+    },
+    {
+      "name": "pieces/boss-concrete-a.json",
+      "file": "pieces/boss-concrete-a.json",
+      "kind": "piece",
+      "bytes": 4880
+    },
+    {
+      "name": "boss-concrete-a-albedo.png",
+      "file": "boss-concrete-a-albedo.png",
+      "kind": "image",
+      "bytes": 837339
+    },
+    {
+      "name": "boss-concrete-a-normal.png",
+      "file": "boss-concrete-a-normal.png",
+      "kind": "image",
+      "bytes": 769501
+    },
+    {
+      "name": "boss-concrete-a-height.png",
+      "file": "boss-concrete-a-height.png",
+      "kind": "image",
+      "bytes": 261295
+    },
+    {
+      "name": "pieces/boss-concrete-b.json",
+      "file": "pieces/boss-concrete-b.json",
+      "kind": "piece",
+      "bytes": 5137
+    },
+    {
+      "name": "boss-concrete-b-albedo.png",
+      "file": "boss-concrete-b-albedo.png",
+      "kind": "image",
+      "bytes": 825382
+    },
+    {
+      "name": "boss-concrete-b-normal.png",
+      "file": "boss-concrete-b-normal.png",
+      "kind": "image",
+      "bytes": 822549
+    },
+    {
+      "name": "boss-concrete-b-height.png",
+      "file": "boss-concrete-b-height.png",
+      "kind": "image",
+      "bytes": 236247
+    },
+    {
+      "name": "pieces/boss-concrete-c.json",
+      "file": "pieces/boss-concrete-c.json",
+      "kind": "piece",
+      "bytes": 5201
+    },
+    {
+      "name": "boss-concrete-c-albedo.png",
+      "file": "boss-concrete-c-albedo.png",
+      "kind": "image",
+      "bytes": 1067062
+    },
+    {
+      "name": "boss-concrete-c-normal.png",
+      "file": "boss-concrete-c-normal.png",
+      "kind": "image",
+      "bytes": 1028254
+    },
+    {
+      "name": "boss-concrete-c-height.png",
+      "file": "boss-concrete-c-height.png",
+      "kind": "image",
+      "bytes": 399076
     },
     {
       "name": "pieces/coal-cart.json",
@@ -710,85 +904,91 @@
       "name": "pieces/crystal-mine-burst.json",
       "file": "pieces/crystal-mine-burst.json",
       "kind": "piece",
-      "bytes": 5253
+      "bytes": 6835
     },
     {
       "name": "crystal-mine-burst-albedo.png",
       "file": "crystal-mine-burst-albedo.png",
       "kind": "image",
-      "bytes": 160329
+      "bytes": 24624
     },
     {
       "name": "crystal-mine-burst-normal.png",
       "file": "crystal-mine-burst-normal.png",
       "kind": "image",
-      "bytes": 169006
+      "bytes": 23750
     },
     {
       "name": "crystal-mine-burst-height.png",
       "file": "crystal-mine-burst-height.png",
       "kind": "image",
-      "bytes": 148154
+      "bytes": 16140
     },
     {
       "name": "crystal-mine-burst-emissive.png",
       "file": "crystal-mine-burst-emissive.png",
       "kind": "image",
-      "bytes": 131705
+      "bytes": 24363
     },
     {
       "name": "pieces/crystal-mine-divergent.json",
       "file": "pieces/crystal-mine-divergent.json",
       "kind": "piece",
-      "bytes": 5344
+      "bytes": 8528
     },
     {
       "name": "crystal-mine-divergent-albedo.png",
       "file": "crystal-mine-divergent-albedo.png",
       "kind": "image",
-      "bytes": 130703
+      "bytes": 29266
     },
     {
       "name": "crystal-mine-divergent-normal.png",
       "file": "crystal-mine-divergent-normal.png",
       "kind": "image",
-      "bytes": 125219
+      "bytes": 27867
     },
     {
       "name": "crystal-mine-divergent-height.png",
       "file": "crystal-mine-divergent-height.png",
       "kind": "image",
-      "bytes": 105400
+      "bytes": 23644
     },
     {
       "name": "crystal-mine-divergent-emissive.png",
       "file": "crystal-mine-divergent-emissive.png",
       "kind": "image",
-      "bytes": 106420
+      "bytes": 28266
     },
     {
       "name": "pieces/crystal-mine-monolith.json",
       "file": "pieces/crystal-mine-monolith.json",
       "kind": "piece",
-      "bytes": 5317
+      "bytes": 6323
     },
     {
       "name": "crystal-mine-monolith-albedo.png",
       "file": "crystal-mine-monolith-albedo.png",
       "kind": "image",
-      "bytes": 147947
+      "bytes": 96696
     },
     {
       "name": "crystal-mine-monolith-normal.png",
       "file": "crystal-mine-monolith-normal.png",
       "kind": "image",
-      "bytes": 131218
+      "bytes": 2945
     },
     {
       "name": "crystal-mine-monolith-height.png",
       "file": "crystal-mine-monolith-height.png",
       "kind": "image",
-      "bytes": 114130
+      "bytes": 41807
+    },
+    {
+      "name": "crystal-mine-monolith-emissive.png",
+      "file": "crystal-mine-monolith-emissive.png",
+      "kind": "image",
+      "bytes": 98611
     },
     {
       "name": "pieces/crystal-mine-vein.json",
@@ -1001,10 +1201,34 @@
       "bytes": 2432
     },
     {
+      "name": "pieces/hapi-jar.json",
+      "file": "pieces/hapi-jar.json",
+      "kind": "piece",
+      "bytes": 41909
+    },
+    {
+      "name": "hapi-jar-albedo.png",
+      "file": "hapi-jar-albedo.png",
+      "kind": "image",
+      "bytes": 192671
+    },
+    {
+      "name": "hapi-jar-normal.png",
+      "file": "hapi-jar-normal.png",
+      "kind": "image",
+      "bytes": 78211
+    },
+    {
+      "name": "hapi-jar-height.png",
+      "file": "hapi-jar-height.png",
+      "kind": "image",
+      "bytes": 44224
+    },
+    {
       "name": "pieces/hex-pillar.json",
       "file": "pieces/hex-pillar.json",
       "kind": "piece",
-      "bytes": 2367
+      "bytes": 2426
     },
     {
       "name": "hex-pillar-albedo.png",
@@ -1016,7 +1240,37 @@
       "name": "hex-pillar-normal.png",
       "file": "hex-pillar-normal.png",
       "kind": "image",
-      "bytes": 177
+      "bytes": 2993
+    },
+    {
+      "name": "hex-pillar-height.png",
+      "file": "hex-pillar-height.png",
+      "kind": "image",
+      "bytes": 45697
+    },
+    {
+      "name": "pieces/imsety-jar.json",
+      "file": "pieces/imsety-jar.json",
+      "kind": "piece",
+      "bytes": 42502
+    },
+    {
+      "name": "imsety-jar-albedo.png",
+      "file": "imsety-jar-albedo.png",
+      "kind": "image",
+      "bytes": 177214
+    },
+    {
+      "name": "imsety-jar-normal.png",
+      "file": "imsety-jar-normal.png",
+      "kind": "image",
+      "bytes": 92836
+    },
+    {
+      "name": "imsety-jar-height.png",
+      "file": "imsety-jar-height.png",
+      "kind": "image",
+      "bytes": 69794
     },
     {
       "name": "pieces/landmine.json",
@@ -1229,6 +1483,30 @@
       "bytes": 33477
     },
     {
+      "name": "pieces/qebehsenuef-jar.json",
+      "file": "pieces/qebehsenuef-jar.json",
+      "kind": "piece",
+      "bytes": 45854
+    },
+    {
+      "name": "qebehsenuef-jar-albedo.png",
+      "file": "qebehsenuef-jar-albedo.png",
+      "kind": "image",
+      "bytes": 179887
+    },
+    {
+      "name": "qebehsenuef-jar-normal.png",
+      "file": "qebehsenuef-jar-normal.png",
+      "kind": "image",
+      "bytes": 56542
+    },
+    {
+      "name": "qebehsenuef-jar-height.png",
+      "file": "qebehsenuef-jar-height.png",
+      "kind": "image",
+      "bytes": 43952
+    },
+    {
       "name": "pieces/sharkbomb.json",
       "file": "pieces/sharkbomb.json",
       "kind": "piece",
@@ -1365,6 +1643,30 @@
       "file": "wingbomb-emissive.png",
       "kind": "image",
       "bytes": 2803
+    },
+    {
+      "name": "pieces/wingbomb-wire.json",
+      "file": "pieces/wingbomb-wire.json",
+      "kind": "piece",
+      "bytes": 47275
+    },
+    {
+      "name": "wingbomb-wire-albedo.png",
+      "file": "wingbomb-wire-albedo.png",
+      "kind": "image",
+      "bytes": 34759
+    },
+    {
+      "name": "wingbomb-wire-normal.png",
+      "file": "wingbomb-wire-normal.png",
+      "kind": "image",
+      "bytes": 754
+    },
+    {
+      "name": "wingbomb-wire-emissive.png",
+      "file": "wingbomb-wire-emissive.png",
+      "kind": "image",
+      "bytes": 3101
     },
     {
       "name": "pieces/worldcup-trophy.json",

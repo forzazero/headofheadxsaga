@@ -30,14 +30,46 @@
   <div id="boot-loading" style="--boot-progress: 0" aria-busy="true" aria-live="polite">
     <div class="boot-bg" aria-hidden="true"></div>
     <div class="boot-ui">
+      <!-- THE GAUGE IS THE BOMB (styles.css #boot-loading .boot-bomb). One
+           silhouette drawn three times off the same defs: the empty shell, the
+           fill clipped from the bottom up to --boot-progress, and a hairline
+           riding the fill's top edge. The spark is its own <use> so it can
+           flicker on its own. Inline, so the splash still costs no request. -->
+      <div class="boot-bomb" role="progressbar" aria-label="Loading"
+           aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <svg class="bb-shell" viewBox="30 -10 1680 1170" aria-hidden="true">
+          <defs>
+            <linearGradient id="bb-grad" gradientUnits="userSpaceOnUse" x1="0" y1="1160" x2="0" y2="0">
+              <stop offset="0" style="stop-color:#e8590c"/>
+              <stop offset=".55" style="stop-color:#ffc21a"/>
+              <stop offset="1" style="stop-color:#fff1c2"/>
+            </linearGradient>
+            <!-- The glint on the ball, cut out, so it reads as a bomb and not a blob. -->
+            <mask id="bb-glint" maskUnits="userSpaceOnUse" x="0" y="-20" width="1760" height="1200">
+              <rect x="0" y="-20" width="1760" height="1200" fill="#fff"/>
+              <ellipse cx="592" cy="580" rx="46" ry="54" fill="#000"/>
+              <path d="M572 676 L606 682 L600 722 L576 718 Z" fill="#000"/>
+            </mask>
+            <g id="bb-body" mask="url(#bb-glint)">
+              <path style="fill:var(--bb-fill)" d="M560 420 L655 470 L815 505 L765 528 L900 598 L1085 655 L850 662 L905 735 L1690 1045 L905 935 L930 1050 L790 985 L700 1060 L640 1030 L555 1140 L520 1045 L420 1035 Z"/>
+              <path style="fill:var(--bb-fill)" d="M752 690 L740 705 L751 721 L737 735 L747 751 L732 764 L740 782 L724 793 L731 811 L714 821 L719 840 L701 848 L705 867 L686 874 L688 893 L669 898 L669 918 L650 921 L648 940 L629 942 L626 961 L606 961 L601 980 L582 978 L575 997 L556 993 L548 1011 L529 1006 L519 1023 L501 1016 L490 1032 L472 1024 L459 1039 L443 1029 L429 1043 L413 1032 L398 1044 L383 1032 L367 1043 L353 1029 L337 1039 L324 1024 L306 1032 L295 1016 L277 1023 L267 1006 L248 1011 L240 993 L221 997 L214 978 L195 980 L190 961 L170 961 L167 942 L148 940 L146 921 L127 918 L127 898 L108 893 L110 874 L91 867 L95 848 L77 840 L82 821 L65 811 L72 793 L56 782 L64 764 L49 751 L59 735 L45 721 L56 705 L44 690 L56 675 L45 659 L59 645 L49 629 L64 616 L56 598 L72 587 L65 569 L82 559 L77 540 L95 532 L91 513 L110 506 L108 487 L127 482 L127 462 L146 459 L148 440 L167 438 L170 419 L190 419 L195 400 L214 402 L221 383 L240 387 L248 369 L267 374 L277 357 L295 364 L306 348 L324 356 L337 341 L353 351 L367 337 L383 348 L398 336 L413 348 L429 337 L443 351 L459 341 L472 356 L490 348 L501 364 L519 357 L529 374 L548 369 L556 387 L575 383 L582 402 L601 400 L606 419 L626 419 L629 438 L648 440 L650 459 L669 462 L669 482 L688 487 L686 506 L705 513 L701 532 L719 540 L714 559 L731 569 L724 587 L740 598 L732 616 L747 629 L737 645 L751 659 L740 675Z"/>
+              <path style="fill:var(--bb-fill)" d="M338 318 Q346 296 400 300 L540 338 Q568 348 566 372 L562 440 Q556 466 520 462 L360 446 Q330 440 332 416 Z"/>
+              <!-- Embers thrown off the tail. -->
+              <ellipse style="fill:var(--bb-fill)" cx="1310" cy="685" rx="50" ry="21" transform="rotate(18 1310 685)"/>
+              <ellipse style="fill:var(--bb-fill)" cx="660" cy="1086" rx="17" ry="11"/>
+              <circle style="fill:var(--bb-fill)" cx="948" cy="972" r="6"/>
+              <circle style="fill:var(--bb-fill)" cx="964" cy="971" r="6"/>
+              <path style="fill:none;stroke:var(--bb-fill);stroke-width:74;stroke-linecap:round" d="M455 330 C440 200 560 168 728 252"/>
+            </g>
+            <path id="bb-spark" style="fill:var(--bb-fill)" d="M640 215 L752 212 L678 45 L787 189 L822 0 L827 193 L998 75 L857 234 L990 312 L842 285 L878 432 L800 303 L725 432 L766 292 L683 345 L744 260Z"/>
+          </defs>
+          <use href="#bb-body"/><use class="bb-flick" href="#bb-spark"/>
+        </svg>
+        <svg class="bb-fill" viewBox="30 -10 1680 1170" aria-hidden="true"><use href="#bb-body"/><use class="bb-flick" href="#bb-spark"/></svg>
+        <svg class="bb-edge" viewBox="30 -10 1680 1170" aria-hidden="true"><use href="#bb-body"/><use class="bb-flick" href="#bb-spark"/></svg>
+      </div>
       <div class="boot-mark">BOMBERCUP</div>
       <div class="boot-sub">SAGA</div>
-      <div class="boot-bar" role="progressbar" aria-label="Loading"
-           aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-        <div class="boot-fill"></div>
-        <div class="boot-cells" aria-hidden="true"></div>
-        <div class="boot-spark" aria-hidden="true"></div>
-      </div>
       <div class="boot-meta">
         <span>Loading</span>
         <span id="boot-pct">0%</span>
